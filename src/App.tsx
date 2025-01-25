@@ -52,7 +52,7 @@ function App() {
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-light text-dark">Sîli Elena</h1>
             <div className="space-x-6">
-              {['about', 'portfolio', 'awards', 'contact'].map((item) => (
+              {['About', 'Portfolio', 'Awards', 'Contact'].map((item) => (
                 <a
                   key={item}
                   href={`#${item}`}
