@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FAF7F2] text-[#2C2C2C];
+  }
+}
+
+.hover-card {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+.nav-link {
+  @apply transition-colors duration-200 hover:text-[#D4AF37];
+}
+
+.section-title {
+  @apply text-3xl font-light mb-8 text-[#2C2C2C] border-b border-[#D4AF37] pb-2 inline-block;
+}
