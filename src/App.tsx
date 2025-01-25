@@ -72,10 +72,9 @@ function App() {
         <section id="about" className="container mx-auto px-6 py-16">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
-              <h2 className="text-5xl font-light mb-6">Designer & Urban Planner</h2>
+              <h2 className="text-5xl font-light mb-6">Designer & Literary translator</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Crafting meaningful spaces and experiences that bridge nature with urban living. 
-                Based in Chisinau, Moldova, specializing in sustainable urban design and creative solutions.
+              Specializing in art, design, translation, and literature. Crafting meaningful experiences that harmonize creativity with everyday living, based in Chisinau, Moldova.
               </p>
               <div className="flex gap-4">
                 <Map className="text-primary" />
