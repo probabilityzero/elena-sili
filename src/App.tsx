@@ -69,7 +69,7 @@ function App() {
       {/* Main Content */}
       <main className="pt-24 pb-12">
         {/* Hero Section */}
-        <section id="about" className="container mx-auto px-6 py-16">
+        <section id="About" className="container mx-auto px-6 py-16">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
               <h2 className="text-5xl font-light mb-6">Designer & Literary translator</h2>
@@ -124,7 +124,7 @@ function App() {
         </section>
 
         {/* Portfolio Grid */}
-        <section id="portfolio" className="container mx-auto px-6 py-16">
+        <section id="Portfolio" className="container mx-auto px-6 py-16">
           <h3 className="section-title">Featured Work</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioItems.map((item, index) => (
@@ -145,7 +145,7 @@ function App() {
         </section>
 
         {/* Awards Section */}
-        <section id="awards" className="container mx-auto px-6 py-16 bg-white/50">
+        <section id="Awards" className="container mx-auto px-6 py-16 bg-white/50">
           <h3 className="section-title">Awards & Recognition</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex items-start gap-4 p-6 hover-card bg-white rounded-lg">
@@ -191,7 +191,7 @@ function App() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="container mx-auto px-6 py-16">
+        <section id="Contact" className="container mx-auto px-6 py-16">
           <h3 className="section-title">Get in Touch</h3>
           <div className="flex justify-center gap-8">
             {[
